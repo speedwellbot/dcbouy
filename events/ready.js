@@ -23,14 +23,15 @@ console.log(`${client.guilds.size} Sunucuyu + ${client.users.size} Kullanıcıy�
 
 		   "<stresçarkı AKTİF 🔥",
 			
-       	   "Şuan Botumuzu ${client.guilds.size} Sunucu + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + Kullanıcı Kullanıyor ",
+       	           "Şuan Botumuzu ${client.guilds.size} Sunucu + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + Kullanıcı Kullanıyor ",
 		   
 		   "<davet BOTU SUNUCUNUZA EKLEYİN ❤",
 		   
-		   "<otorol AKTİF🔥",
+		   "<hoşgeldin AKTİF🔥",
 		   
 		   "<yardım Yazarak Bilgi Alabilirsiniz 🔥",
-		   "<reklamengeli AKTİF 🔥🔥 ",
+		   
+	           "<reklamengeli AKTİF 🔥🔥 ",
 		`》 ${prefix}yardım , ${client.guilds.size} Sunucuyu  + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + Kullanıcıyı + Senin Küfürlerini İzliyor 🔥🔥| Geriye Bakma.《`
 
 
