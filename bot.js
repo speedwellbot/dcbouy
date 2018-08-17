@@ -138,10 +138,6 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'by') {
       msg.reply('BayBay Kendine İyi Bak');
   }
-  
-  if (msg.content.toLowerCase() === 'davet') {
-      msg.reply('**Gelmessen Ayıp Edersiniz Bak :heart: **   n\n** https://discord.gg/BQJaFbU n\n** ');
-  }
  
  if (msg.content === prefix + 'ekip') {
           msg.reply('Ekipe Katılmak İçin isminin başına **! ѕωα ** Eklemen Gerek Sende Bize Katılmayı Unutma :wink: ');
