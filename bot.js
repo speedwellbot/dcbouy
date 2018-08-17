@@ -113,6 +113,8 @@ client.on('message', msg => {
   }
   if (msg.content === prefix + 'youtube') {
           msg.reply('**https://www.youtube.com/channel/UCbuSlrvLsGN9VjiyKm6Ayxw?view_as=subscriber** ** Sende Bize Katılmayı Unutma :wink: ** ');
+  } if (msg.content === prefix + 'hoşgeldin') {
+          msg.reply('Hoşgeldin Komutunu Kullanmak İstiyorsan ** gelen-giden ** adında Bir kanal oluşturmalısın');
   }
    if (msg.content === prefix + 'otorol') {
           msg.reply('Otorol Komutunu Kullanman İçin **Kullanıcı** Adlı Rol Eklemen Gerekli Ve Ayrıca **gelen-giden** Adlı Kanal Eklemen Gerek :heart:');
