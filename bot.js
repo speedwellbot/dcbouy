@@ -156,7 +156,7 @@ client.on("message", message => {
 }); 
 
 client.on("message", message => {
-    const kufur = ["https://"];
+    const kufur = [".gg"];
     if (kufur.some(word => message.content.includes(word)) ) {
         message.reply(" , ** Az Önce Bir Reklamını Engelledim ! Reklam Atmana İzin Vermeyeceğim ** :fire: !")
         message.delete()
