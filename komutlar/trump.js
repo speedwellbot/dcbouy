@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args) => {
     let result = Math.floor((Math.random() * replies.length));
 
     let gifembed = new Discord.RichEmbed()
-        .setTitle("Animeleeer Çok Güzelllerr xD ")
+        .setTitle("Ah Trump Ahhh :D xD ")
         .setColor("#FF69B4")
         .setFooter(`Gifiniz ${message.author.tag} `, message.author.avatarURL)
         .setImage(replies[result]);
