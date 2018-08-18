@@ -20,15 +20,10 @@ console.log(`${client.guilds.size} Sunucuyu + ${client.users.size} Kullanıcıy�
     var Games = [
 
        "KÖTÜ KELİMELERİ İZLİYOR 🔥🔥 xD  ",
-	    
        "<stresçarkı AKTİF 🔥",
-   
        "<davet BOTU SUNUCUNUZA EKLEYİN ❤",
-		   
        "<hoşgeldin AKTİF🔥",
-		   
        "<yardım Yazarak Bilgi Alabilirsiniz 🔥",
-		   
        "<küfürengeli AKTİF 🔥🔥 ",
 		`》 ${prefix}yardım , ${client.guilds.size} Sunucuyu  + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + Kullanıcıyı + Senin Küfürlerini İzliyor 🔥🔥| Geriye Bakma.《`
 
