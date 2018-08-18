@@ -19,7 +19,7 @@ console.log(`${client.guilds.size} Sunucuyu + ${client.users.size} Kullanıcıy�
 
     var Games = [
 
-        " ${client.guilds.size} Sunucuyu  + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + Kullanıcıyı + Senin Küfürlerini İzliyor`);",
+       " ${client.guilds.size} Sunucuyu  + client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() + Kullanıcıyı + Senin Küfürlerini İzliyor`);",
        
        "KÖTÜ KELİMELERİ İZLİYOR 🔥🔥 xD  ",
       
