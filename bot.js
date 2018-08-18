@@ -87,7 +87,7 @@ client.on('guildMemberAdd', member => {
  .setThumbnail(member.user.avatarURL || member.user.defaultAvatarURL)
  .setTitle('Üye katıldı;')
  .setDescription(`Sunucuya katıldı Toplam [${member.guild.memberCount} üye]!`)
- .setFooter('Tr-Baddy', client.user.avatarURL)
+ .setFooter('Tr-Baddy , client.user.avatarURL)
  .setTimestamp()
  channel.send(embed);
 });
@@ -102,7 +102,7 @@ client.on('guildMemberRemove', member => {
  .setThumbnail(member.user.avatarURL || member.user.defaultAvatarURL)
  .setTitle('Üye ayrıldı;')
  .setDescription(`Sunucudan ayrıldı [${member.guild.memberCount} üye]!`)
- .setFooter('Tr-Badyy's ', client.user.avatarURL)
+ .setFooter('Tr-Badyy s ', client.user.avatarURL)
  .setTimestamp()
  channel.send(embed);
 });
