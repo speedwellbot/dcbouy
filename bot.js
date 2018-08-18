@@ -114,6 +114,9 @@ client.on('message', msg => {
   if (msg.content === prefix + 'youtube') {
           msg.reply('**https://www.youtube.com/channel/UCbuSlrvLsGN9VjiyKm6Ayxw?view_as=subscriber** ** Sende Bize Katılmayı Unutma :wink: ** ');
   }
+  if (msg.content === prefix + 'hoşgeldin') {
+          msg.reply('Hoşgeldin Komutunu Kullanmak İçin **gelen-giden** adlı kanal oluşturman gerek :) ');
+  }
    if (msg.content === prefix + 'reklamengeli') {
           msg.reply('**  Reklam Engeli Açılmıştır :wink: ** ');
   }
