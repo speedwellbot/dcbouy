@@ -25,7 +25,7 @@ console.log(`${client.guilds.size} Sunucuyu + ${client.users.size} Kullanıcıy�
       
        "<stresçarkı AKTİF 🔥",
        
-       "<davet BOTU SUNUCUNUZA EKLEYİN ❤",
+       "<trump AKTİF xD ",
        
        "<hoşgeldin AKTİF🔥",
        
