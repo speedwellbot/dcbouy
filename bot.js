@@ -150,15 +150,6 @@ client.on("message", message => {
 }); 
 
 client.on("message", message => {
-    const kufur = ["https://"];
-    if (kufur.some(word => message.content.includes(word)) ) {
-        message.reply(" , ** Az Önce Bir Reklamını Engelledim ! Reklam Atmana İzin Vermeyeceğim ** :fire: !")
-        message.delete()
-    }
-
-}); 
-
-client.on("message", message => {
     const kufur = ["ağla","kudur","AĞLA","KUDUR","Ağla","Kudur","zırla","ZIRLA","Zırla","Sümkür","SÜMKÜR","sümkür","annesiz","Annesiz","ANNESİZ"];
     if (kufur.some(word => message.content.includes(word)) ) {
         message.reply(" ** , Bu sunucuda Kışkırtıcı Sözler Tr-Badyy's Bot tarafından engellenmektedir! Kışkırtmana izin vermeyeceğim **:fire: !")
