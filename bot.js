@@ -112,7 +112,7 @@ client.on('message', msg => {
        msg.reply('** Aleyküm Selam, Hoşgeldin :smile: **');
   }
   if (msg.content === prefix + 'youtube') {
-          msg.reply('**https://www.youtube.com/channel/UCbuSlrvLsGN9VjiyKm6Ayxw?view_as=subscriber** ** Sende Bize Katılmayı Unutma :wink: ** ');
+          msg.reply('**https://www.youtube.com/efespeedwell** ** Sende Bize Katılmayı Unutma :wink: ** ');
   }
   if (msg.content === prefix + 'hoşgeldin') {
           msg.reply('Hoşgeldin Komutunu Kullanmak İçin **gelen-giden** adlı kanal oluşturman gerek :) ');
