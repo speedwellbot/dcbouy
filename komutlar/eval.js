@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 exports.run = (client, message, args) => {
-	if (message.author.id === "349847418243645451") {
+	if (message.author.id === "446751862922805269") {
 		try {
 		  var code = args.join(" ");
 		  var evaled = eval(code);
